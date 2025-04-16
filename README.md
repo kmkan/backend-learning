@@ -1,2 +1,8 @@
-# backend-learning
-Learning to become a backend dev from scratch.
+## 🚀 Backend Learning
+- 📅 Started: April 16, 2025
+- 🧠 Current Day: 01
+- 📈 Tracking Progress: ✅
+
+| Day | Topic                        | Status  |
+|-----|------------------------------|---------|
+| 1   | How Web Works                | 🔜      |
