@@ -5,4 +5,5 @@
 
 | Day | Topic                        | Status  |
 |-----|------------------------------|---------|
-| 1   | How Web Works                | 🔜      |
+| 1   | How Web Works                | ✅ Done |
+| 2   | HTTP Deep Dive               | ✅ Done |
