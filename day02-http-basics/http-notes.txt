@@ -1,0 +1,14 @@
+- Hyper Text Transfer Protocol
+- Responsible for communication between web servers anc clients
+- HTTP Methods: Get (retrives data from server, loading a standerd web page), 
+                POST (submits data to server, submitting a contact form ), 
+                PUT (update existing data), 
+                DELETE (remove existing data)
+- HTTP requests and respones include headers with important metadata (ex: status code, content-type)
+- Status codes: In the header of a response from the server. 
+                Include: 200 - OK (any request for a webpage)
+                         400 - Bad Request (incorrect data sent)
+                         401 - Unauthorized
+                         404 - Not Found (incorrect URL)
+                         500 - Internal server error
+- Used Postman to make GET and POST requests to https://jsonplaceholder.typicode.com/ 
