@@ -1,0 +1,22 @@
+- An API (Application Programming Interface) is a collection of defintions (methods, rules) 
+  that let you interact with a software, library, or service 
+- REST (Representational State Transfer) is a paradigm with specific rules and constraints.
+- Any API that follows these rules is called a RESTful API
+- Principles: - Each resource is identified by a unique URI (Uniform Resource Identifier, 
+                ex: https://example.com/api/examples for all examples, /api is a convention 
+                that helps seperate frontend and backend calls)
+              - Each resource is grouped by noun (ex: To get all products, should be /products, not /getAllProducts)
+              - A request for a resource is made over HTTP with the form HTTP-VERB URI (ex: GET /products), 
+                can include optional header and body field
+              - A response from the server contains a proper HTTP status code (ex: 200, 400, 500), as well as a body 
+              - The implementation should be stateless, meaning each request-response cycle is independent,
+                the client and server don't store any data about each other
+
+- CRUD (Create, Read, Update, Delete) are the four basic operations you can perform on a database
+- REST equivalents:
+                  - CREATE -> POST 
+                  - READ -> GET
+                  - UPDATE -> PUT 
+                  - DELETE -> DELETE
+
+              - 
