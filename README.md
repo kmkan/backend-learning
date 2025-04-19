@@ -13,3 +13,4 @@
 | 1   | How Web Works      | ✅ Done  |
 | 2   | HTTP Deep Dive     | ✅ Done  |
 | 3   | REST API Design    | ✅ Done  |
+| 4   | Node.js Server     | ✅ Done  |
