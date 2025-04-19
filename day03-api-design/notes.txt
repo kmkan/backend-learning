@@ -1,0 +1,4 @@
+- An API (Application Programming Interface) is a collection of defintions (methods, rules) 
+  that let you interact with a software, library, or service 
+- REST (Representational State Transfer) is a paradigm with specific rules and constraints.
+- Any API that follows these rules is called a RESTful API
