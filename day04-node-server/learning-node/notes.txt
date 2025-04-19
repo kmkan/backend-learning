@@ -1,0 +1,11 @@
+- Node.js is a JavaScript runtime, basically means it provides everything needed in order to run
+  JavaScript on your computer
+- Allows you to use JavaScript to write server-side code (build backend servers, create scripts)
+- Fast, efficient and scalable because Node runs Javascript on one thread and offloads
+  slow tasks to be done in the background as it continues executing remaining tasks
+
+- NPM (Node Package Manager) is the largest software registry
+- 'npm init' will create a package.json file. Most importantly, this file contains
+  information about the dependencies your project needs
+- 'npm install' will download all dependencies listed in your package.json 
+  file (you never want to deploy node_modueles to a host)
