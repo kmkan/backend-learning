@@ -1,0 +1,4 @@
+- Middleware is anything that happens between the client sending the request
+  and the server sending a response
+- Logging, error handling, inputted data verification middleware are just
+  some examples of middleware you can create
