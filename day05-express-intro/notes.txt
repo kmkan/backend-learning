@@ -1,0 +1,4 @@
+- Express.js is a web framework for Node.js, meaning it simplifies operations
+  that Node.js can do. It essentially abstracts the low level implementations
+- Unopinionated (only includes the bare essentials, allows for different ways
+  to do the same things, allows you to structure folders how you want)
