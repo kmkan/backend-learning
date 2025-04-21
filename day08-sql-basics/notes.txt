@@ -1,0 +1,7 @@
+- SQL (Structured Query Language) allows you to query, transform, and manipulate data in a relational database
+- An SQL table can be thought of as an entity, with each row being a specific instance of that entity 
+  and each column being common properties shared by all instances
+- Primary key: A value that uniquely defines the entry in the database
+- Foreign key: The value of the primary key in another table, 
+
+
