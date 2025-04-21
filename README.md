@@ -1,6 +1,6 @@
 # 🚀 Backend Learning Journey  
 📅 Started: April 16, 2025  
-🧠 Current Day: 07  
+🧠 Current Day: 08  
 📈 Tracking Progress: ✅ Active Daily  
 
 ---
@@ -16,5 +16,6 @@
 | 5   | Express.js API Intro    | ✅ Done  |
 | 6   | Routing & Middleware    | ✅ Done  |
 | 7   | Rubik's Cube REST API   | ✅ Done  |
+| 8   | Relational DB & SQL     | ✅ Done  |
 
 ---
