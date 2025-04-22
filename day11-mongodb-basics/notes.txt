@@ -1,0 +1,7 @@
+- MongoDB is a document database
+- Documents: Data is stored as JSON documents, offering flexibility and easy mapping to application code objects
+- Collections: Documents are grouped into collections, similar to tables in relational databases, but with more flexibility
+- Replica Sets: Ensure high availability by automatically creating multiple copies of data
+- Sharding: Distributes data across multiple machines for scalability
+- Indexes: Improve query speed by allowing the app to scan the index instead of every document
+- Aggregation Pipelines: Enable processing, transforming, and analyzing data at scale
