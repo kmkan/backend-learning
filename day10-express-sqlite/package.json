@@ -1,0 +1,17 @@
+{
+  "name": "day10-express-sqlite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "star": "node server",
+    "dev": "node --watch server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
