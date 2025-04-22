@@ -1,0 +1,16 @@
+{
+  "name": "wds-mongoose",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script",
+    "dev": "node --watch script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongoose": "^8.13.2"
+  }
+}
