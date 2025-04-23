@@ -1,0 +1,7 @@
+MVC:
+    - A way to organize a complex application by seperating the logic and presentation of data
+    - Controller (C) acts as a middleman between the two parts of an application, responsible
+      for messages between the user, model, view
+    - Model (M) handles the logic of the code (ex: sending a list of all entries)
+    - View (V) handles the presentation of the data (ex: showing a nicely formatted list of all entries)
+
