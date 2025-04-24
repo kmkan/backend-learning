@@ -18,8 +18,9 @@ app.use(errorHandler);
 
 connectDB()
     .then(() => {
-        const port = process.env.PORT || 5000;
-        app.listen(port, () => {
-            console.log('Server is listening.');
-        })
+        const port = process.env.PORT;
+        app.listen(port, () => console.log('Server is listening.'));
     })
+    .catch(() => {
+        console.log('MongoDB couldn\'t connect');
+    });
