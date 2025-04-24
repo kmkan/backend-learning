@@ -12,10 +12,10 @@ const errorHandler = require('./middleware/errorHandling');
 
 const app = express();
 
-app.use(helmet());
-app.use(cors());
-app.use(mongoSanitize());
-app.use(xss());
+// app.use(helmet());
+// app.use(cors());
+// app.use(mongoSanitize());
+// app.use(xss());
 
 const limiter = rateLimit({
     windowMs: 10 * 60 * 1000, 
