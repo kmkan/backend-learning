@@ -1,9 +1,9 @@
 require('dotenv').config();
 const express = require('express');
+const cubeRoutes = require('./routes/cubeRoutes');
+const authRoutes = require('./routes/authRoutes');
 const connectDB = require('./config/db');
-const cubeRoutes = require('./routes/cube');
-const authRoutes = require('./routes/auth'); 
-const errorHandler = require('./errorMiddleware');
+const errorHandler = require('./middleware/errorMiddleware');
 
 const app = express();
 
@@ -13,7 +13,7 @@ app.use((req, res, next) => {
 });
 app.use(express.json());
 app.use('/api/cubes', cubeRoutes);
-app.use('/api/cubes/auth', authRoutes); 
+app.use('/api/cubes', authRoutes);
 app.use(errorHandler);
 
 connectDB()
