@@ -1,9 +1,9 @@
 require('dotenv').config();
 const express = require('express');
 const helmet = require('helmet');
-const mongoSanitize = require('express-mongo-sanitize');
+// const mongoSanitize = require('express-mongo-sanitize'); 
 const cors = require('cors');
-const xss = require('xss-clean');
+// const xss = require('xss-clean'); 
 const rateLimit = require('express-rate-limit');
 const connectDB = require('./config/db');
 const cubeRoutes = require('./routes/cubeRoutes');
@@ -12,14 +12,14 @@ const errorHandler = require('./middleware/errorHandling');
 
 const app = express();
 
-// app.use(helmet());
-// app.use(cors());
-// app.use(mongoSanitize());
-// app.use(xss());
+app.use(helmet());
+app.use(cors());
+// app.use(mongoSanitize()); // Removed
+// app.use(xss()); // Removed
 
 const limiter = rateLimit({
-    windowMs: 10 * 60 * 1000, 
-    max: 100, 
+    windowMs: 10 * 60 * 1000,
+    max: 100,
     message: "Too many requests. Please try again later."
 });
 
@@ -40,3 +40,7 @@ connectDB()
             console.log('Server is listening.');
         })
     })
+    .catch((err) => {
+        console.error('Failed to connect to MongoDB:', err);
+        process.exit(1); // Exit the process if MongoDB connection fails
+    });
