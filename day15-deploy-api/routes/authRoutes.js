@@ -26,6 +26,10 @@ router.post('/login', async (req, res) => {
             return res.status(404).json({ msg: 'User does not exist. '});
         }
 
+        const rightPassword = await bcrypt.compare(req.body.password, foundUser.password);
+        if (!rightPassword) {
+            return res.status(401).json({ msg: 'Invalid password.' });
+        }
         const accessToken = jwt.sign({ sub: foundUser._id }, process.env.SECRET);
         res.json({ accessToken });
     } catch (err) {
