@@ -5,8 +5,18 @@ const Task = require('../models/Task');
 const router = express.Router();
 
 router.get('/', authenticator, async (req, res) => {
+    const query = { owner: req.user.userID };
+
+    if (req.query.status) {
+        query.status = req.query.status;
+    }
+
+    if (req.query.dueBefore) {
+        query.dueDate = { $lte: new Date(req.query.dueBefore )};
+    }
+
     try {
-        const tasks = await Task.find({ owner: req.user.userId });
+        const tasks = await Task.find(query);
         res.status(200).json(tasks);
     } catch (err) {
         res.status(500).json({ msg: err.message });
