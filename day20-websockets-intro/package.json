@@ -1,0 +1,17 @@
+{
+  "name": "day20-websockets-intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.1"
+  }
+}
