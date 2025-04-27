@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Private Chat</title>
+</head>
+<body>
+  <input id="room" placeholder="Room name">
+  <button onclick="joinRoom()">Join Room</button><br><br>
+
+  <input id="message" placeholder="Message">
+  <button onclick="sendMessage()">Send Message</button>
+
+  <ul id="messages"></ul>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
