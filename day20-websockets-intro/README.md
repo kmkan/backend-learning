@@ -9,3 +9,4 @@ This is a basic real-time chat application built with Node.js, Express, and Sock
 2.  **Start chatting!** Type a message in the input field in one of the browser tabs and click the "Send" button.
 
 3.  **Observe real-time updates.** You will see the message you sent appear instantly in the chat box of all other open browser tabs connected to the same server. This demonstrates the real-time, bidirectional communication powered by Socket.IO.
+4.  
