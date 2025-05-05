@@ -1,3 +1,7 @@
+**UPDATE**: The journey has been put on pause for the time being. I have learned enough about full stack development to where I can create most of what I want and have learned the skills needed for me to succeed in junior full stack roles.
+
+---
+
 # 🚀 Backend Learning Journey  
 📅 Started: April 16, 2025  
 🧠 Current Day: 21  
